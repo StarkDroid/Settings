@@ -141,6 +141,7 @@ import com.android.settingslib.drawer.Tile;
 
 import java.net.URISyntaxException;
 import com.android.settings.zephyr.AdditionalSettings;
+import com.android.settings.zephyr.AboutPhoneSettings;
 import com.android.settings.du.nav.FlingSettings;
 import com.android.settings.du.nav.NavbarSettings;
 import com.android.settings.du.nav.SmartbarSettings;
@@ -399,7 +400,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
+            PulseSettings.class.getName(),
+	    AboutPhoneSettings.class.getName()
     };
 
 
